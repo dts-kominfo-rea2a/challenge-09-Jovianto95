@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    gap: 16px;
+    background-color: bisque;
+    margin: 10px 200px 10px 200px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 25px;
+    width: 400px;
+    height: 150px;
+}
+
+.container .image {
+    width: 50%;
+    padding: 10px;
+}
+
+.container .content {
+    width: 50%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
