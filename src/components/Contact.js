@@ -1,7 +1,7 @@
 // Terima props lalu tampilkan dalam Contact component
 // Kalian bisa membuat CSS sendiri di src/components/Contact.css
 import React from 'react';
-import Contact from './Contact.css';
+import './Contact.css';
 
 const Contact = (propsData) => {
     const item = propsData.data;
